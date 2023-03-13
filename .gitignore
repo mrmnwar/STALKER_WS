@@ -11,4 +11,6 @@ unins000.*
 gamedataUE/
 trunk/xray/xr_3da/XR_3DA_2007.sdf
 *.suo
+user/
+*.ipch
 
