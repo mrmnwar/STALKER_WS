@@ -535,6 +535,7 @@
     <ClInclude Include="r2_rendertarget_wallmarks.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="r2_render_posteffect.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">Create</PrecompiledHeader>

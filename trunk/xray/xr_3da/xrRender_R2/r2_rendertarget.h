@@ -188,6 +188,9 @@ public:
 	void						phase_combine			();
 	void						phase_pp				();
 
+	// for rendering posteffects
+	void						render_posteffect		(ref_rt& rt_Posteffect, u32& Offset, ref_selement& s_posteffect);
+
 	virtual void				set_blur				(float	f)		{ param_blur=f;						}
 	virtual void				set_gray				(float	f)		{ param_gray=f;						}
 	virtual void				set_duality_h			(float	f)		{ param_duality_h=_abs(f);			}
