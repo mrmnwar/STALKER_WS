@@ -4,19 +4,10 @@
 struct 	v2p
 {
   float4 tc0: 		TEXCOORD0;	// Center
-  float4 tc1: 		TEXCOORD1;	// LT 		 
-  float4 tc2: 		TEXCOORD2;	// RB
-  float4 tc3: 		TEXCOORD3;	// RT 
-  float4 tc4: 		TEXCOORD4;	// LB
-  float4 tc5:		TEXCOORD5;	// Left	/ Right	
-  float4 tc6:		TEXCOORD6;	// Top  / Bottom 
 };
 
 //////////////////////////////////////////////////////////////////////////////////////////
 uniform sampler2D 	s_distort;
-uniform half4 		e_barrier;	// x=norm(.8f), y=depth(.1f), z=clr
-uniform half4 		e_weights;	// x=norm, y=depth, z=clr
-uniform half4 		e_kernel;	// x=norm, y=depth, z=clr
 #define	EPSDEPTH	0.001
 //////////////////////////////////////////////////////////////////////////////////////////
 // Pixel
