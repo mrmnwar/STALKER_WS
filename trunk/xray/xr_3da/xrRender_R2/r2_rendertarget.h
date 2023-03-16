@@ -111,7 +111,7 @@ private:
 	ref_geom					g_combine_VP;		// xy=p,zw=tc
 	ref_geom					g_combine_2UV;
 	ref_geom					g_aa_blur;
-	ref_geom					g_aa_AA;
+	ref_geom					g_combine2;
 	ref_shader					s_combine_dbg_0;
 	ref_shader					s_combine_dbg_1;
 	ref_shader					s_combine_dbg_Accumulator;
